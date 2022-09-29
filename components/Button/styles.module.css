@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 10px;
+    width:45%;
+    background-color: #001D3D;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    color: #FFC300;
+}
