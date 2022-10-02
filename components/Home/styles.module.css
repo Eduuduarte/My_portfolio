@@ -10,6 +10,7 @@
 .container h1{
     font-weight: 700;
     font-size: 40px;
+    margin: 0;
 }
 
 .container h4{
@@ -38,18 +39,18 @@
     width: 2.5rem;
     height: 2.5rem;
     margin-bottom: 1rem;
-    color: #001D3D;
+    color: #FFC300;
 }
 
 .imgArea {
     display: flex;
     justify-content: center;
     background: linear-gradient( #001D3D, transparent );
-    width: 50%;
+    width: 40%;
     height: 60%;
     border-radius: 50% 50% 0 0;
     position: absolute;
-    bottom: 20px;
+    bottom: 0;
     overflow: hidden;
 }
 
@@ -61,7 +62,7 @@
 
 .scroll {
     position: absolute;
-    right: 18%;
+    right: 14%;
     bottom: 7rem;
     transform: rotate(90deg);
 }
@@ -70,6 +71,7 @@
     text-decoration: none;
     color: #FFC300;
     font-size: 20px;
+    font-weight: 700;
     display: flex;
     align-items: center;
 }

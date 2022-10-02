@@ -9,7 +9,7 @@ type Props = {
 
 const Button = ({ label, link, download, fill}: Props) => {
     return (
-        <div className={styles.container} style={{backgroundColor:`${fill ? "#001D3D" : "transparent"}`, borderColor:`${fill ? "transparent" : "#001D3D"}`}}>
+        <div className={styles.container} style={{backgroundColor:`${fill ? "#001D3D" : "transparent"}`, borderColor:`${fill ? "transparent" : "#001D3D"}` }}>
             <a className={styles.link} href={link} download={download} >{label}</a>
         </div>
     )

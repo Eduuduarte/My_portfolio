@@ -1,0 +1,88 @@
+.container {
+    background-color: #000814;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFC300;
+}
+
+.container h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+}
+
+.container h4{
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.about {
+    display: flex;
+    justify-content: space-Around;
+    width: 85%;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.areaImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #001D3D;   
+    width: 40%;
+    height: 80%;
+    border-radius: 20%;
+    padding: 40px;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+}
+
+.areaCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.4rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.7rem;
+    background-color: rgba(0, 53, 102, 0.1);
+    border: 1px solid #001D3D;
+    border-radius: 30%;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: rgba(0, 53, 102, 0.8);
+}
+
+.card h4 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFC300;
+    margin: 0;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 20px;
+}
