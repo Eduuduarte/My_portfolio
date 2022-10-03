@@ -31,7 +31,7 @@
     flex-direction: column;
     align-items: center;
     position: absolute;
-    left: 20%;
+    left: 14%;
     bottom: 3rem;
 }
 
@@ -62,7 +62,7 @@
 
 .scroll {
     position: absolute;
-    right: 14%;
+    right: 10%;
     bottom: 7rem;
     transform: rotate(90deg);
 }

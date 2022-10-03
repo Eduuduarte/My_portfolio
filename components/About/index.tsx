@@ -17,7 +17,7 @@ const About = () => {
                     <div className={styles.cards}>
                         <article className={styles.card}>
                             <RiProfileLine className={styles.icon} />
-                            <h4>Experiências</h4>
+                            <h4>Experiência</h4>
                             <small>+1 ano</small>
                         </article>
                         <article className={styles.card}>
@@ -31,7 +31,7 @@ const About = () => {
                             <small>+30</small>
                         </article>
                     </div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and
+                    <p className={styles.areaText}>Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the industry's
                         standard dummy text ever since the 1500s, when an unknown
                         printer took a galley of type and scrambled it to make a type specimen book.
