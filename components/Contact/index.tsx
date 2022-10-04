@@ -2,7 +2,10 @@ import styles from './styles.module.css';
 
 const Contact = () => {
     return (
-        <div>Contact</div>
+        <div className={styles.container} id="contact">
+            Contact
+
+        </div>
     )
 }
 

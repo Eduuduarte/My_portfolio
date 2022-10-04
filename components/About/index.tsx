@@ -31,10 +31,9 @@ const About = () => {
                             <small>+30</small>
                         </article>
                     </div>
-                    <p className={styles.areaText}>Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the industry's
-                        standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book.
+                    <p className={styles.areaText}>
+                        Iniciei minha jornada na programação a pouca mais de 1 ano. Desde o ínico, meu foco sempre foi entregar a melhor experiência para o cliente.
+                        Tmabém estou sempre procurando aperfeiçoando minha habilidades e adiquirir novos conhecimentos, sempre buscando me manter atualizado sobre as tedências de mercados.
                     </p>
                 </div>
             </div>

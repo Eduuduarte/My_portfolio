@@ -2,7 +2,9 @@ import styles from './styles.module.css';
 
 const Portfolio = () => {
     return (
-        <div>Portfolio</div>
+        <div className={styles.container} id="portfolio">
+            Portfolio
+        </div>
     )
 }
 
