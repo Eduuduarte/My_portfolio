@@ -6,3 +6,106 @@
     align-items: center;
     color: #FFC300;
 }
+
+.container h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+}
+
+.container h4{
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.areaSkill {
+    display: flex;
+    gap: 1rem;
+    width: 85%;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.area h3{
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFF;
+}
+
+.content{
+    background-color: rgba(0, 53, 102, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    border: 1px solid #FFF;
+    border-radius: 2rem;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.icon{
+    width: 2rem;
+    height: 2rem;
+    color: #FFF;
+}
+
+.skills h3{
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    color: #FFC300;
+}
+
+.skills small{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 1190px) {
+    .container{
+        height: 100%;
+    }
+    .areaSkill{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        gap:0;
+    }
+    .content{
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .icon{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    
+    .skills h3{
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+    }
+    
+    .skills small{
+        font-size: 14px;
+    }
+}
