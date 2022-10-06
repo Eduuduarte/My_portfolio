@@ -6,3 +6,76 @@
     align-items: center;
     color: #FFC300;
 }
+
+.container h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+}
+
+.container h4{
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 85%;
+    gap: 1.5rem;
+}
+
+.service{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid rgba(0, 53, 102, 0.5);
+    border-radius: 1rem;
+}
+
+.icon{
+    width: 70px;
+    height: 70px;
+    color: #FFF;
+    margin-right: 1rem;
+
+}
+
+.serviceText {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex: 1;
+}
+
+.serviceText h3{
+    font-size: 24px;
+    margin: 0;
+}
+
+.serviceText p{
+    text-align: justify;
+    color: #FFF;
+}
+
+@media screen and (max-width: 1190px) {
+    .container{
+        height: 100%;
+    }
+    
+    .area {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .serviceText h3{
+        font-size: 20Px;
+    }
+    .icon{
+        width: 48px;
+        height: 48px;
+    }   
+}
