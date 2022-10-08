@@ -1,0 +1,41 @@
+@keyframes is-rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes text_pulse {
+    0%{
+        color: rgba(255, 214, 10, 0.1);
+    }
+    50% {
+        color: rgba(255, 214, 10, 0.5);
+    }
+    100% {
+        color: rgba(255, 214, 10, 1);
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+}
+
+.container h2{
+    animation: text_pulse 1s infinite;
+    font-size: 30px;
+    color: rgba(255, 214, 10, 0.5);
+}
+
+.rounded {
+    animation: is-rotating 1s infinite;
+    border: 6px solid #E5E5E5;
+    border-top-color: #003566;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}

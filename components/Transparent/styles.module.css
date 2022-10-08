@@ -1,0 +1,44 @@
+@keyframes skeleton{
+    to{
+        background-position-x: -200%;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.title{
+    margin-top: 12px;
+    height: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.subArea{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.icon{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.button{
+    height: 55px;
+    width: 120px;
+    border-radius: 1rem;
+}
+
+.title, .icon, .button {
+    background: linear-gradient(110deg, #A9A9A9 8%, #F7F6F6 18%, #A9A9A9 33%);
+    background-size: 200% 100%;
+    animation: 2s skeleton linear infinite;
+}
