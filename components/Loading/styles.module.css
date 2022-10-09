@@ -27,6 +27,7 @@
 
 .container h2{
     animation: text_pulse 1s infinite;
+    transition-timing-function: ease-in;
     font-size: 30px;
     color: rgba(255, 214, 10, 0.5);
 }
