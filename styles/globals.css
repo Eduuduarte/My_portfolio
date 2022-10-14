@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
 
 div{
-  background-color: #000814;
+  /* background-color: #000814; */
 }
 
 html,
@@ -10,6 +10,7 @@ body {
   margin: 0;
   font-family: 'Roboto Mono', monospace;
   background-color: #000814;
+  box-sizing: border-box;
 }
 
 /* color do project */

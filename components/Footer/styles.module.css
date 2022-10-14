@@ -1,0 +1,26 @@
+.container{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #001D3D;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-around;
+    background: transparent;
+}
+
+.lista li{
+    background: transparent;
+    margin: 1rem;
+    list-style-type: none;
+}
+
+.lista a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFC300;
+}

@@ -15,8 +15,8 @@ const Index: NextPage = () => {
         <Service />
         <Portfolio />
         <Contact />
-        <Footer />
       </div>
+      <Footer />
     </div>
   )
 }
