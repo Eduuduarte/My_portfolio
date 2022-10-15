@@ -1,13 +1,13 @@
 .container {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.1);
     width: max-content;
     display: block;
-    padding: 1rem 2rem;
+    padding: 0.8rem 2rem;
     z-index: 2;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 2rem;
+    bottom: 1rem;
     display: flex;
     gap: 0.8rem;
     border-radius: 3rem;
@@ -21,8 +21,8 @@
 }
 
 .icon {
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     cursor: pointer;
     color: #FFC300;
     padding: 0 5px;
