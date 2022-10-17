@@ -26,17 +26,22 @@ const Home = () => {
             </div>
 
             <div className={styles.midiaSocials}>
-                <a href='https://www.linkedin.com/in/eduuduarte/'><ImLinkedin className={styles.icon}/></a>
-                <a href='https://www.linkedin.com/in/eduuduarte/'><AiOutlineGithub className={styles.icon}/></a>
-                <a href='https://www.linkedin.com/in/eduuduarte/'><SiInstagram className={styles.icon}/></a>
+                <a href={'https://www.linkedin.com/in/eduuduarte/'}><ImLinkedin className={styles.icon}/></a>
+                <a href={'https://github.com/Eduuduarte'}><AiOutlineGithub className={styles.icon}/></a>
+                <a href={'https://www.instagram.com/edu_uduarte/'}><SiInstagram className={styles.icon}/></a>
             </div>
 
             <div className={styles.imgArea}>
                 <img src="/assets/avatar.svg" alt="Avatar" className={styles.img} />
             </div>
+            <div className={styles.midiaMobile}>
+                <a href={'https://www.linkedin.com/in/eduuduarte/'}><ImLinkedin className={styles.icon}/></a>
+                <a href={'https://github.com/Eduuduarte'}><AiOutlineGithub className={styles.icon}/></a>
+                <a href={'https://www.instagram.com/edu_uduarte/'}><SiInstagram className={styles.icon}/></a>
+            </div>
 
             <div className={styles.scroll}>
-                <a href=""><AiOutlineMinus />Scroll Down<AiOutlineMinus /></a>
+                <a href={''}><AiOutlineMinus />Scroll Down<AiOutlineMinus /></a>
             </div>
 
 

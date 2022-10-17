@@ -1,9 +1,9 @@
 .container{
     height: 100%;
     width: 100%;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center; */
+    justify-content: center;
     background-color: #001D3D;
 }
 
@@ -62,5 +62,19 @@
     .lista {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .lista {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .icons{
+        width: 50%;
+        left: 30%;
+        padding: 1rem;
+        margin-bottom: 4rem;
     }
 }

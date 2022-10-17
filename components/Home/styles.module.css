@@ -10,12 +10,13 @@
 .container h1{
     font-weight: 700;
     font-size: 40px;
-    margin: 0;
+    margin: 1rem 0;
 }
 
 .container h4{
     font-weight: 500;
     font-size: 18px;
+    margin: 0;
     color: #FFF;
 }
 
@@ -23,7 +24,11 @@
     display: flex;
     justify-content: space-around;
     width: 30%;
-    margin-bottom: 20px;
+    margin: 1.5rem 0;
+}
+
+.midiaMobile{
+    display: none;
 }
 
 .midiaSocials {
@@ -47,10 +52,10 @@
     justify-content: center;
     background: linear-gradient( #001D3D, transparent );
     width: 40%;
-    height: 60%;
+    height: 55%;
     border-radius: 50% 50% 0 0;
     position: absolute;
-    bottom: 0;
+    bottom: 3rem;
     overflow: hidden;
 }
 
@@ -74,4 +79,62 @@
     font-weight: 700;
     display: flex;
     align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .imgArea{
+        width: 30%;
+        height: 40%;
+    }
+
+    .container h1{}
+}
+
+@media screen and (max-width: 500px){
+    .container{
+        height: 100%;
+    }
+
+    .container h1{
+        font-size: 16px;
+    }
+
+    .container h4{
+        font-size: 14px;
+    }
+
+    .button{
+       flex-direction: column; 
+    }
+
+    .midiaMobile{
+        display: flex;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .midiaSocials{
+        display: none;
+    }
+
+    .icon{
+        width: 32px;
+        height: 32px;
+    }
+
+    .scroll{
+        display: none;
+    }
+
+    .imgArea {
+        height: 40%;
+        width: 40%;
+        position: static;
+    }
+
+    .img {
+        margin-top: 20px;
+        width: 80px;
+        height: 80px;
+    }
 }

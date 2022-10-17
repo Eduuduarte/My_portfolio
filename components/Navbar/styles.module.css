@@ -27,3 +27,14 @@
     color: #FFC300;
     padding: 0 5px;
 }
+
+@media screen and (max-width: 500px){
+    .container{
+        padding: 0.5rem 1rem;
+    }
+
+    .icon{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}

@@ -32,8 +32,8 @@ const About = () => {
                         </article>
                     </div>
                     <p className={styles.areaText}>
-                        Iniciei minha jornada na programação a pouca mais de 1 ano. Desde o ínico, meu foco sempre foi entregar a melhor experiência para o cliente.
-                        Também estou sempre procurando aperfeiçoar minha habilidades e adiquirir novos conhecimentos, buscando me manter atualizado sobre as tedências de mercados.
+                        Iniciei minha jornada na programação a pouca mais de 1 ano. Desde o ínico, meu foco sempre foi entregar a melhor experiência para o cliente,
+                        e, também estou sempre procurando aperfeiçoar minha habilidades e adiquirir novos conhecimentos, buscando atualizações sobre as stacks que trabalho.
                     </p>
                 </div>
             </div>

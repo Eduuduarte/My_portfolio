@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className={styles.container}>
             <div className={styles.titlesMenu}>
-            <h3>Eduardo Duarte</h3>
+                <h3>Eduardo Duarte</h3>
                 <ul className={styles.lista}>
                     <li><Link href={'#'}>Home</Link></li>
                     <li><Link href={'#about'}>Sobre</Link></li>
@@ -19,9 +19,9 @@ const Footer = () => {
                 </ul>
             </div>
             <div className={styles.icons}>
-                <ImLinkedin className={styles.icon}/>
-                <AiOutlineGithub className={styles.icon}/>
-                <SiInstagram className={styles.icon}/>
+                <a href={'https://www.linkedin.com/in/eduuduarte/'}><ImLinkedin className={styles.icon} /></a>
+                <a href={'https://github.com/Eduuduarte'}><AiOutlineGithub className={styles.icon} /></a>
+                <a href={'https://www.instagram.com/edu_uduarte/'}><SiInstagram className={styles.icon} /></a>
             </div>
         </div>
     )

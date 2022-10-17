@@ -17,6 +17,7 @@
     font-weight: 500;
     font-size: 18px;
     color: #FFF;
+    margin: 0;
 }
 
 .areaSkill {
@@ -108,5 +109,27 @@
     
     .skills small{
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .area h3{
+        font-size: 25px;
+    }
+
+    .content{
+        gap: 1rem;
+        padding: 15px;
+    }
+
+    .skills{
+        gap: 0.5rem;
+    }
+
+    .skills h3{
+        font-size: 14px;
+    }
+    .skills small{
+        font-size: 12px;
     }
 }
