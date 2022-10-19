@@ -5,6 +5,7 @@ import {AiOutlineGithub, AiOutlineMinus} from 'react-icons/ai';
 import {SiInstagram} from 'react-icons/si';
 
 const Home = () => {
+
     return (
         <div className={styles.container}>
             <h4>Olá, eu sou</h4>
