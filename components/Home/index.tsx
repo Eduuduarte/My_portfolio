@@ -1,5 +1,7 @@
 import Button from '../Button';
 import styles from './styles.module.css';
+import Image from 'next/image';
+import Avatar from '../../public/assets/avatar.svg';
 import {ImLinkedin} from 'react-icons/im';
 import {AiOutlineGithub, AiOutlineMinus} from 'react-icons/ai';
 import {SiInstagram} from 'react-icons/si';
@@ -33,7 +35,7 @@ const Home = () => {
             </div>
 
             <div className={styles.imgArea}>
-                <img src="/assets/avatar.svg" alt="Avatar" className={styles.img} />
+                <Image src={Avatar} className={styles.img} width={200} height={200}/>
             </div>
             <div className={styles.midiaMobile}>
                 <a href={'https://www.linkedin.com/in/eduuduarte/'}><ImLinkedin className={styles.icon}/></a>
