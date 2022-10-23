@@ -44,7 +44,7 @@ const Home = () => {
             </div>
 
             <div className={styles.scroll}>
-                <a href={''}><AiOutlineMinus />Scroll Down<AiOutlineMinus /></a>
+                <a href={'#footer'}><AiOutlineMinus />Scroll Down<AiOutlineMinus /></a>
             </div>
 
 

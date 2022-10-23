@@ -67,7 +67,7 @@
 
 .scroll {
     position: absolute;
-    right: 10%;
+    right: 5%;
     bottom: 8rem;
     transform: rotate(90deg);
 }

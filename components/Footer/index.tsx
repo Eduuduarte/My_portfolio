@@ -6,7 +6,7 @@ import {SiInstagram} from 'react-icons/si';
 
 const Footer = () => {
     return (
-        <div className={styles.container}>
+        <div id='footer' className={styles.container}>
             <div className={styles.titlesMenu}>
                 <h3>Eduardo Duarte</h3>
                 <ul className={styles.lista}>
