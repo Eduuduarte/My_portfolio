@@ -1,7 +1,9 @@
 import styles from './styles.module.css';
+import Image from 'next/image';
 import { RiProfileLine } from 'react-icons/ri';
 import { BsFillPeopleFill } from 'react-icons/bs';
 import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
+import Avatar from '../../public/assets/Avatar2.png';
 
 const About = () => {
     return (
@@ -10,9 +12,8 @@ const About = () => {
             <h1>Sobre mim</h1>
 
             <div className={styles.about}>
-                <div className={styles.areaImg}>
-                    <img src="/assets/avatar.svg" alt="avatar" className={styles.img} />
-                </div>
+                <Image src={Avatar} className={styles.img}/>
+
                 <div className={styles.areaCards}>
                     <div className={styles.cards}>
                         <article className={styles.card}>
