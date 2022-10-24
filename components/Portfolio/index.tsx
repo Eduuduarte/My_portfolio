@@ -16,8 +16,8 @@ const Portfolio = () => {
                     <div className={styles.projectOver}>
                         <h3>Dashboard</h3>
                         <div className={styles.areaSub}>
-                            <a href="" className={styles.linkIcon}><BsGithub className={styles.icon} /></a>
-                            <a href="" className={styles.visite}>Visitar</a>
+                            <a href="https://github.com/Eduuduarte/Dashboard-ReactJs" className={styles.linkIcon} target="_blank"><BsGithub className={styles.icon} /></a>
+                            <a href="https://dashboard-shopperun.netlify.app" className={styles.visite} target="_blank">Visitar</a>
                         </div>
                     </div>
                 </article>
@@ -28,8 +28,8 @@ const Portfolio = () => {
                     <div className={styles.projectOver}>
                         <h3>Streaming de música</h3>
                         <div className={styles.areaSub}>
-                            <a href="" className={styles.linkIcon}><BsGithub className={styles.icon} /></a>
-                            <a href="" className={styles.visite}>Visitar</a>
+                            <a href="https://github.com/Eduuduarte/Lyrics_React" className={styles.linkIcon} target="_blank"><BsGithub className={styles.icon} /></a>
+                            <a href="https://ed-lyrics-app.netlify.app" className={styles.visite} target="_blank">Visitar</a>
                         </div>
                     </div>
                 </article>
