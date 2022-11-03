@@ -19,9 +19,9 @@ const Footer = () => {
                 </ul>
             </div>
             <div className={styles.icons}>
-                <a href={'https://www.linkedin.com/in/eduuduarte/'}><ImLinkedin className={styles.icon} /></a>
-                <a href={'https://github.com/Eduuduarte'}><AiOutlineGithub className={styles.icon} /></a>
-                <a href={'https://www.instagram.com/edu_uduarte/'}><SiInstagram className={styles.icon} /></a>
+                <a href={'https://www.linkedin.com/in/eduuduarte/'} target="_blank" rel="noreferrer"><ImLinkedin className={styles.icon} /></a>
+                <a href={'https://github.com/Eduuduarte'} target="_blank" rel="noreferrer"><AiOutlineGithub className={styles.icon} /></a>
+                <a href={'https://www.instagram.com/edu_uduarte/'} target="_blank" rel="noreferrer"><SiInstagram className={styles.icon} /></a>
             </div>
         </div>
     )

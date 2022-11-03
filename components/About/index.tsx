@@ -12,7 +12,7 @@ const About = () => {
             <h1>Sobre mim</h1>
 
             <div className={styles.about}>
-                <Image src={Avatar} className={styles.img}/>
+                <Image src={Avatar} className={styles.img} alt="avatar"/>
 
                 <div className={styles.areaCards}>
                     <div className={styles.cards}>

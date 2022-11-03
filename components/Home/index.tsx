@@ -29,18 +29,18 @@ const Home = () => {
             </div>
 
             <div className={styles.midiaSocials}>
-                <a href={'https://www.linkedin.com/in/eduuduarte/'} target="_blank"><ImLinkedin className={styles.icon}/></a>
-                <a href={'https://github.com/Eduuduarte'} target="_blank"><AiOutlineGithub className={styles.icon}/></a>
-                <a href={'https://www.instagram.com/edu_uduarte/'} target="_blank"><SiInstagram className={styles.icon}/></a>
+                <a href={'https://www.linkedin.com/in/eduuduarte/'} target="_blank" rel="noreferrer"><ImLinkedin className={styles.icon}/></a>
+                <a href={'https://github.com/Eduuduarte'} target="_blank" rel="noreferrer"><AiOutlineGithub className={styles.icon}/></a>
+                <a href={'https://www.instagram.com/edu_uduarte/'} target="_blank" rel="noreferrer"><SiInstagram className={styles.icon}/></a>
             </div>
 
             <div className={styles.imgArea}>
-                <Image src={Avatar} className={styles.img} width={300} height={150}/>
+                <Image src={Avatar} alt="avatar" className={styles.img} width={300} height={150}/>
             </div>
             <div className={styles.midiaMobile}>
-                <a href={'https://www.linkedin.com/in/eduuduarte/'} target="_blank"><ImLinkedin className={styles.icon}/></a>
-                <a href={'https://github.com/Eduuduarte'} target="_blank"><AiOutlineGithub className={styles.icon}/></a>
-                <a href={'https://www.instagram.com/edu_uduarte/'} target="_blank"><SiInstagram className={styles.icon}/></a>
+                <a href={'https://www.linkedin.com/in/eduuduarte/'} target="_blank" rel="noreferrer"><ImLinkedin className={styles.icon}/></a>
+                <a href={'https://github.com/Eduuduarte'} target="_blank" rel="noreferrer"><AiOutlineGithub className={styles.icon}/></a>
+                <a href={'https://www.instagram.com/edu_uduarte/'} target="_blank" rel="noreferrer"><SiInstagram className={styles.icon}/></a>
             </div>
 
             <div className={styles.scroll}>

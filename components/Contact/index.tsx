@@ -37,13 +37,13 @@ return (
                     <RiWhatsappFill className={styles.icon} />
                     <h4>WhatsApp</h4>
                     <h3>+5588998056422</h3>
-                    <a href='https://wa.me/qr/KYYMGTLFCCBOE1'>Envie uma mensagem</a>
+                    <a href='https://wa.me/qr/KYYMGTLFCCBOE1' target="_blank" rel="noreferrer">Envie uma mensagem</a>
                 </article>
                 <article className={styles.option}>
                     <AiFillLinkedin className={styles.icon} />
                     <h4>Linkedin</h4>
                     <h3>Eduardo Duarte</h3>
-                    <a href='https://www.linkedin.com/in/eduuduarte/'>Envie uma mensagem</a>
+                    <a href='https://www.linkedin.com/in/eduuduarte/' target="_blank" rel="noreferrer">Envie uma mensagem</a>
                 </article>
             </div>
             <form action='submit' onSubmit={sendEmail}>
