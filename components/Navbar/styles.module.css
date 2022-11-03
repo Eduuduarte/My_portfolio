@@ -38,3 +38,13 @@
         height: 1.5rem;
     }
 }
+
+@media screen and (max-width: 414px){
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        bottom: 0;
+        border-radius: 0;
+    }
+}
