@@ -13,13 +13,15 @@ body {
   box-sizing: border-box;
 }
 
-/* color do project */
-/* 
-  primary: #000814
-  secondary: #001D3D
-  variant: #003566;
-  font: #FFC300
-  font-secondary: #FFD60A
-*/
+::-webkit-scrollbar{
+	width: 5px;
+}
+::-webkit-scrollbar-track{
+	background: #000814;
+	border-radius: 30px;
+}
 
-
+::-webkit-scrollbar-thumb{
+	background: #FFC300;
+	border-radius: 30px;
+}
