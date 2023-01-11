@@ -52,6 +52,7 @@
 .areaImg img{
     display: block;
     width: inherit;
+    height: inherit;
     border-radius: 1rem;
 }
 
