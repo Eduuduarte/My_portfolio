@@ -34,7 +34,7 @@ const About = () => {
                     </div>
                     <p className={styles.areaText}>
                         Iniciei minha jornada na programação no ano de 2021. Desde do ínico, meu foco sempre foi entregar a melhor experiência para o cliente,
-                        e, também estou sempre procurando aperfeiçoar minha habilidades e adiquirir novos conhecimentos, buscando atualizações sobre as stacks que trabalho. Em meus projetos, costumo 
+                        e, também estou sempre procurando aperfeiçoar minhas habilidades e adiquirir novos conhecimentos, buscando atualizações sobre as stacks que trabalho. Em meus projetos, costumo 
                         utilizar conceitos de arquitetura limpa e de fácil manutenção, que garante para o cliente uma aplicação confiável.
                     </p>
                 </div>
