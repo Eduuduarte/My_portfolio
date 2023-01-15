@@ -41,8 +41,15 @@ const Skills = () => {
                         <article className={styles.skills}>
                             <BsBookmarkCheckFill className={styles.icon} />
                             <div>
-                                <h3>NextJs</h3>
+                                <h3>React Native</h3>
                                 <small>Intermediário</small>
+                            </div>
+                        </article>
+                        <article className={styles.skills}>
+                            <BsBookmarkCheckFill className={styles.icon} />
+                            <div>
+                                <h3>NextJs</h3>
+                                <small>Avançado</small>
                             </div>
                         </article>
                         <article className={styles.skills}>
