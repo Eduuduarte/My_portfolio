@@ -46,6 +46,17 @@ const Portfolio = () => {
                 </article>
                 <article className={styles.project}>
                     <div className={styles.areaImg}>
+                        <img className={styles.projectImg} src='/assets/projetoLoja.png'></img>
+                    </div>
+                    <div className={styles.projectOver}>
+                        <h3>EToolShop - Design UI</h3>
+                        <div className={styles.areaSub}>
+                            <a href="https://www.figma.com/file/VajU3bz2xDUP940bNM5XGK/Untitled?node-id=0%3A1&t=bcjRDXQcSG9B5cDq-1" className={styles.visite} target="_blank" rel="noreferrer">Visitar</a>
+                        </div>
+                    </div>
+                </article>
+                <article className={styles.project}>
+                    <div className={styles.areaImg}>
                         <Loading />
                     </div>
                     <div className={styles.projectOver}>
