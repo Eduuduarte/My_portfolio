@@ -35,7 +35,7 @@ const Home = () => {
             </div>
 
             <div className={styles.imgArea}>
-                <Image src={Avatar} alt="avatar" className={styles.img} width={300} height={150}/>
+                <Image src={Avatar} alt="avatar" className={styles.img}/>
             </div>
             <div className={styles.midiaMobile}>
                 <a href={'https://www.linkedin.com/in/eduuduarte/'} target="_blank" rel="noreferrer"><ImLinkedin className={styles.icon}/></a>

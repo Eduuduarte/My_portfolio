@@ -125,12 +125,14 @@
     }
 
     .imgArea {
-        height: 80%;
-        width: 80%;
+        height: 100%;
+        width: 100%;
         position: static;
     }
 
     .img {
         margin-top: 20px;
+        height: 100px;
+        width: 150px;
     }
 }

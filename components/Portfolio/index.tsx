@@ -57,6 +57,18 @@ const Portfolio = () => {
                 </article>
                 <article className={styles.project}>
                     <div className={styles.areaImg}>
+                        <img className={styles.projectImg} src='/assets/Meunumerodasorte.png'></img>
+                    </div>
+                    <div className={styles.projectOver}>
+                        <h3>Meu Número da Sorte</h3>
+                        <div className={styles.areaSub}>
+                            <a href="https://github.com/Eduuduarte/meunumerodasorte" className={styles.linkIcon} target="_blank" rel="noreferrer"><BsGithub className={styles.icon} /></a>
+                            <a href="https://meunumerodasorte.netlify.app/" className={styles.visite} target="_blank" rel="noreferrer">Visitar</a>
+                        </div>
+                    </div>
+                </article>
+                <article className={styles.project}>
+                    <div className={styles.areaImg}>
                         <Loading />
                     </div>
                     <div className={styles.projectOver}>
