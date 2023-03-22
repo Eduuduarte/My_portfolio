@@ -14,56 +14,48 @@ const Skills = () => {
                             <BsBookmarkCheckFill className={styles.icon} />
                             <div>
                                 <h3>HTML</h3>
-                                <small>Avançado</small>
                             </div>
                         </article>
                         <article className={styles.skills}>
                             <BsBookmarkCheckFill className={styles.icon} />
                             <div>
                                 <h3>CSS</h3>
-                                <small>Intermediário</small>
                             </div>
                         </article>
                         <article className={styles.skills}>
                             <BsBookmarkCheckFill className={styles.icon} />
                             <div>
                                 <h3>Javascript</h3>
-                                <small>Avançado</small>
                             </div>
                         </article>
                         <article className={styles.skills}>
                             <BsBookmarkCheckFill className={styles.icon} />
                             <div>
                                 <h3>ReactJs</h3>
-                                <small>Avançado</small>
                             </div>
                         </article>
                         <article className={styles.skills}>
                             <BsBookmarkCheckFill className={styles.icon} />
                             <div>
                                 <h3>React Native</h3>
-                                <small>Intermediário</small>
                             </div>
                         </article>
                         <article className={styles.skills}>
                             <BsBookmarkCheckFill className={styles.icon} />
                             <div>
                                 <h3>NextJs</h3>
-                                <small>Avançado</small>
                             </div>
                         </article>
                         <article className={styles.skills}>
                             <BsBookmarkCheckFill className={styles.icon} />
                             <div>
                                 <h3>Bootstrap</h3>
-                                <small>Intermediário</small>
                             </div>
                         </article>
                         <article className={styles.skills}>
                             <BsBookmarkCheckFill className={styles.icon} />
                             <div>
                                 <h3>Tailwindcss</h3>
-                                <small>Intermediário</small>
                             </div>
                         </article>
                     </div>
@@ -75,35 +67,30 @@ const Skills = () => {
                             <BsBookmarkCheckFill className={styles.icon} />
                             <div>
                                 <h3>NodeJs</h3>
-                                <small>Avançado</small>
                             </div>
                         </article>
                         <article className={styles.skills}>
                             <BsBookmarkCheckFill className={styles.icon} />
                             <div>
                                 <h3>MySQL</h3>
-                                <small>Intermediário</small>
                             </div>
                         </article>
                         <article className={styles.skills}>
                             <BsBookmarkCheckFill className={styles.icon} />
                             <div>
                                 <h3>MongoDB</h3>
-                                <small>Avançado</small>
                             </div>
                         </article>
                         <article className={styles.skills}>
                             <BsBookmarkCheckFill className={styles.icon} />
                             <div>
                                 <h3>PostgreSQL</h3>
-                                <small>Avançado</small>
                             </div>
                         </article>
                         <article className={styles.skills}>
                             <BsBookmarkCheckFill className={styles.icon} />
                             <div>
                                 <h3>Firebase</h3>
-                                <small>Intermediário</small>
                             </div>
                         </article>
                     </div>
