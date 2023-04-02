@@ -1,9 +1,18 @@
 import styles from './styles.module.css';
+import { useEffect, useState } from 'react';
+
 import { AiFillHome, AiOutlineIdcard, AiOutlineFundProjectionScreen } from 'react-icons/ai';
 import { FaTools, FaPhoneSquareAlt } from 'react-icons/fa';
 import { BsFileBarGraphFill } from 'react-icons/bs';
 
-import { useEffect, useState } from 'react';
+const NAV_ITEMS = [
+    { id: '', icon: AiFillHome },
+    { id: 'about', icon: AiOutlineIdcard },
+    { id: 'skills', icon: FaTools },
+    { id: 'service', icon: AiOutlineFundProjectionScreen },
+    { id: 'portfolio', icon: BsFileBarGraphFill },
+    { id: 'contact', icon: FaPhoneSquareAlt },
+  ];
 
 const Navbar = () => {
 
@@ -17,6 +26,7 @@ const Navbar = () => {
         const large = window.innerWidth;
         setScreenLarge(large)
     }
+
 
     useEffect(() => {
         window.addEventListener('load', handleTakeScreen);
@@ -86,12 +96,15 @@ const Navbar = () => {
 
     return (
         <div className={styles.container}>
-            <a href='#' onClick={() => setActiveNav('#')} className={activiteNav === '#' ? styles.active : ''}><AiFillHome className={styles.icon} /></a>
-            <a href='#about' className={activiteNav === '#about' ? styles.active : ''}><AiOutlineIdcard className={styles.icon} /></a>
-            <a href='#skills' className={activiteNav === '#skills' ? styles.active : ''}><FaTools className={styles.icon} /></a>
-            <a href='#service' className={activiteNav === '#service' ? styles.active : ''}><AiOutlineFundProjectionScreen className={styles.icon} /></a>
-            <a href='#portfolio' className={activiteNav === '#portfolio' ? styles.active : ''}><BsFileBarGraphFill className={styles.icon} /></a>
-            <a href='#contact' className={activiteNav === '#contact' ? styles.active : ''}><FaPhoneSquareAlt className={styles.icon} /></a>
+            {NAV_ITEMS.map(({ id, icon: Icon }) => (
+        <a
+          href={`#${id}`}
+          className={activiteNav === `#${id}` ? styles.active : ''}
+          key={id}
+        >
+          <Icon className={styles.icon} />
+        </a>
+      ))}
         </div>
     )
 }
