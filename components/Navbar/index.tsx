@@ -21,6 +21,7 @@ const Navbar = () => {
     const [screenLarge, setScreenLarge] = useState(0);
     const [sizeScreen, setSizeScreen] = useState('')
 
+    
 
     const handleTakeScreen = () => {
         const large = window.innerWidth;
@@ -29,8 +30,8 @@ const Navbar = () => {
 
 
     useEffect(() => {
-        window.addEventListener('pageshow', handleTakeScreen);
-        return () => window.removeEventListener('pageshow', handleTakeScreen);
+        window.addEventListener('load', handleTakeScreen);
+        return () => window.removeEventListener('load', handleTakeScreen);
     }, []);
 
     useEffect(() => {
@@ -44,7 +45,14 @@ const Navbar = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, [])
 
+
+    const handleScroll = () => {
+        const position = window.pageYOffset;
+        setScrollPosition(position)
+    }
+
     useEffect(() => {
+
         if (screenLarge > 1000) {
             setSizeScreen('Large')
         } else if (screenLarge > 414) {
@@ -52,6 +60,7 @@ const Navbar = () => {
         } else {
             setSizeScreen('Small')
         }
+        console.log(sizeScreen)
 
         if (
             scrollPosition > 654 && scrollPosition < 1839 && sizeScreen === 'Small' ||
@@ -87,13 +96,9 @@ const Navbar = () => {
 
     }, [scrollPosition, screenLarge])
 
-    const handleScroll = () => {
-        const position = window.pageYOffset;
-        setScrollPosition(position)
-    }
-
     return (
         <div className={styles.container}>
+            <p style={{ color: 'white'}}>{sizeScreen} & {screenLarge}</p>
             {NAV_ITEMS.map(({ id, icon: Icon }) => (
                 <a
                     href={`#${id}`}
