@@ -65,29 +65,29 @@ const Navbar = () => {
         if (
             scrollPosition > 654 && scrollPosition < 1839 && sizeScreen === 'Small' ||
             scrollPosition > 521 && scrollPosition < 1539 && sizeScreen === 'Medium' ||
-            scrollPosition > 720 && scrollPosition < 1442 && sizeScreen === 'Large'
+            scrollPosition > 648 && scrollPosition < 1297 && sizeScreen === 'Large'
         ) {
             setActiveNav('#about')
         } else if (
             scrollPosition > 1839 && scrollPosition < 4293 && sizeScreen === 'Small' ||
             scrollPosition > 1539 && scrollPosition < 4304 && sizeScreen === 'Medium' ||
-            scrollPosition > 1442 && scrollPosition < 2542 && sizeScreen === 'Large'
+            scrollPosition > 1297 && scrollPosition < 2337 && sizeScreen === 'Large'
         ) {
             setActiveNav('#portfolio')
         } else if (
             scrollPosition > 4293 && scrollPosition < 4795 && sizeScreen === 'Small' ||
             scrollPosition > 4304 && scrollPosition < 4951 && sizeScreen === 'Medium' ||
-            scrollPosition > 2542 && scrollPosition < 3263 && sizeScreen === 'Large'
+            scrollPosition > 2337 && scrollPosition < 2985 && sizeScreen === 'Large'
         ) {
             setActiveNav('#skills')
         } else if (
             scrollPosition > 4795 && scrollPosition < 5674 && sizeScreen === 'Small' ||
             scrollPosition > 4951 && scrollPosition < 5815 && sizeScreen === 'Medium' ||
-            scrollPosition > 3263 && scrollPosition < 3984 && sizeScreen === 'Large'
+            scrollPosition > 2985 && scrollPosition < 3635 && sizeScreen === 'Large'
         ) {
             setActiveNav('#service')
         } else if (
-            scrollPosition > 3983
+            scrollPosition > 3635
         ) {
             setActiveNav('#contact')
         } else if (scrollPosition < 521) {
