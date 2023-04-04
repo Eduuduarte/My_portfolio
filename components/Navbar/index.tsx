@@ -65,25 +65,25 @@ const Navbar = () => {
         if (
             scrollPosition > 654 && scrollPosition < 1839 && sizeScreen === 'Small' ||
             scrollPosition > 521 && scrollPosition < 1539 && sizeScreen === 'Medium' ||
-            scrollPosition > 720 && scrollPosition < 1441 && sizeScreen === 'Large'
+            scrollPosition > 720 && scrollPosition < 1442 && sizeScreen === 'Large'
         ) {
             setActiveNav('#about')
         } else if (
             scrollPosition > 1839 && scrollPosition < 4293 && sizeScreen === 'Small' ||
             scrollPosition > 1539 && scrollPosition < 4304 && sizeScreen === 'Medium' ||
-            scrollPosition > 1441 && scrollPosition < 2541 && sizeScreen === 'Large'
+            scrollPosition > 1442 && scrollPosition < 2542 && sizeScreen === 'Large'
         ) {
             setActiveNav('#portfolio')
         } else if (
             scrollPosition > 4293 && scrollPosition < 4795 && sizeScreen === 'Small' ||
             scrollPosition > 4304 && scrollPosition < 4951 && sizeScreen === 'Medium' ||
-            scrollPosition > 2541 && scrollPosition < 3262 && sizeScreen === 'Large'
+            scrollPosition > 2542 && scrollPosition < 3263 && sizeScreen === 'Large'
         ) {
             setActiveNav('#skills')
         } else if (
             scrollPosition > 4795 && scrollPosition < 5674 && sizeScreen === 'Small' ||
             scrollPosition > 4951 && scrollPosition < 5815 && sizeScreen === 'Medium' ||
-            scrollPosition > 3262 && scrollPosition < 3983 && sizeScreen === 'Large'
+            scrollPosition > 3263 && scrollPosition < 3984 && sizeScreen === 'Large'
         ) {
             setActiveNav('#service')
         } else if (
@@ -98,7 +98,7 @@ const Navbar = () => {
 
     return (
         <div className={styles.container}>
-            <p style={{ color: 'white'}}>{sizeScreen} & {screenLarge}</p>
+            <p style={{ color: 'white'}}>{sizeScreen} & {screenLarge} & {scrollPosition}</p>
             {NAV_ITEMS.map(({ id, icon: Icon }) => (
                 <a
                     href={`#${id}`}
