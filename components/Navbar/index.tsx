@@ -29,8 +29,8 @@ const Navbar = () => {
 
 
     useEffect(() => {
-        window.addEventListener('load', handleTakeScreen);
-        return () => window.removeEventListener('load', handleTakeScreen);
+        window.addEventListener('pageshow', handleTakeScreen);
+        return () => window.removeEventListener('pageshow', handleTakeScreen);
     }, []);
 
     useEffect(() => {
@@ -41,7 +41,6 @@ const Navbar = () => {
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
-        console.log(scrollPosition)
         return () => window.removeEventListener('scroll', handleScroll);
     }, [])
 
@@ -53,12 +52,11 @@ const Navbar = () => {
         } else {
             setSizeScreen('Small')
         }
-        console.log(sizeScreen)
 
         if (
             scrollPosition > 654 && scrollPosition < 1839 && sizeScreen === 'Small' ||
             scrollPosition > 521 && scrollPosition < 1539 && sizeScreen === 'Medium' ||
-            scrollPosition > 666 && scrollPosition < 1441 && sizeScreen === 'Large'
+            scrollPosition > 720 && scrollPosition < 1441 && sizeScreen === 'Large'
         ) {
             setActiveNav('#about')
         } else if (
@@ -74,7 +72,7 @@ const Navbar = () => {
         ) {
             setActiveNav('#skills')
         } else if (
-            scrollPosition > 3219 && scrollPosition < 5674 && sizeScreen === 'Small' ||
+            scrollPosition > 4795 && scrollPosition < 5674 && sizeScreen === 'Small' ||
             scrollPosition > 4951 && scrollPosition < 5815 && sizeScreen === 'Medium' ||
             scrollPosition > 3262 && scrollPosition < 3983 && sizeScreen === 'Large'
         ) {
