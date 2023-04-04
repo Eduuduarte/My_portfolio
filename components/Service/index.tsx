@@ -36,7 +36,7 @@ const Service = () => {
                     <BsCodeSquare className={styles.icon}/>
                     <div className={styles.serviceText}>
                         <h3>Outros</h3>
-                        <p>Também faço freelancer para aplicações do Office365, e prototipagem de websites e aplicações mobiles no Figma.</p>
+                        <p>Também faço freelancer para aplicações do Office365, e prototipagem de websites, aplicações mobiles no Figma e bot para Telegram.</p>
                     </div>
                 </article>
             </div>

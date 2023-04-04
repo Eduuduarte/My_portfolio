@@ -69,12 +69,23 @@ const Portfolio = () => {
                 </article>
                 <article className={styles.project}>
                     <div className={styles.areaImg}>
+                        <img className={styles.projectImg} src='/assets/Barbearia.png'></img>
+                    </div>
+                    <div className={styles.projectOver}>
+                        <h3>Barbearia Urbana</h3>
+                        <div className={styles.areaSub}>
+                            <a href="https://www.figma.com/file/5h7smMaHUv8rR5N96AAiK5/Barbearia-Urbana?node-id=0%3A1&t=b5Q4FHu501mhYDt5-1" className={styles.visite} target="_blank" rel="noreferrer">Visitar</a>
+                        </div>
+                    </div>
+                </article>
+                {/* <article className={styles.project}>
+                    <div className={styles.areaImg}>
                         <Loading />
                     </div>
                     <div className={styles.projectOver}>
                         <Transparent />
                     </div>
-                </article>
+                </article> */}
             </div>
         </div>
     )
