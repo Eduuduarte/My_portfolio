@@ -35,9 +35,9 @@ const Index: NextPage = () => {
         <Home />
         <Navbar />
         <About />
+        <Portfolio />
         <Skills />
         <Service />
-        <Portfolio />
         <Contact />
       </div>
       <Footer />

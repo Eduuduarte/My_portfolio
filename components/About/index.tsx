@@ -33,9 +33,10 @@ const About = () => {
                         </article>
                     </div>
                     <p className={styles.areaText}>
-                        Iniciei minha jornada na programação no ano de 2021. Desde do ínico, meu foco sempre foi entregar a melhor experiência para o cliente,
-                        e, também estou sempre procurando aperfeiçoar minhas habilidades e adiquirir novos conhecimentos, buscando atualizações sobre as stacks que trabalho. Em meus projetos, costumo 
-                        utilizar conceitos de arquitetura limpa e de fácil manutenção, que garante para o cliente uma aplicação confiável.
+                    Sou um desenvolvedor apaixonado por tecnologia e comprometido com a entrega de soluções inovadoras. 
+                    Sou um desenvolvedor com experiência em desenvolvimento de software e aplicativos, e estou sempre atualizado com as tendências do mercado.
+                    Possuo habilidades tanto em back-end quanto em front-end. 
+                    Tenho forte conhecimento em linguagens de programação como JavaScript, HTML, CSS, e Node.js, e experiência em bancos de dados relacionais e não-relacionais. Sou especialista em tecnologias web como React, Nextjs e Vue.js.
                     </p>
                 </div>
             </div>

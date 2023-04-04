@@ -8,11 +8,11 @@ import { BsFileBarGraphFill } from 'react-icons/bs';
 const NAV_ITEMS = [
     { id: '', icon: AiFillHome },
     { id: 'about', icon: AiOutlineIdcard },
+    { id: 'portfolio', icon: BsFileBarGraphFill },
     { id: 'skills', icon: FaTools },
     { id: 'service', icon: AiOutlineFundProjectionScreen },
-    { id: 'portfolio', icon: BsFileBarGraphFill },
     { id: 'contact', icon: FaPhoneSquareAlt },
-  ];
+];
 
 const Navbar = () => {
 
@@ -62,28 +62,28 @@ const Navbar = () => {
         ) {
             setActiveNav('#about')
         } else if (
-            scrollPosition > 1839 && scrollPosition < 2353 && sizeScreen === 'Small' ||
-            scrollPosition > 1539 && scrollPosition < 2187 && sizeScreen === 'Medium' ||
+            scrollPosition > 1839 && scrollPosition < 4293 && sizeScreen === 'Small' ||
+            scrollPosition > 1539 && scrollPosition < 4304 && sizeScreen === 'Medium' ||
             scrollPosition > 1333 && scrollPosition < 2002 && sizeScreen === 'Large'
+        ) {
+            setActiveNav('#portfolio')
+        } else if (
+            scrollPosition > 4293 && scrollPosition < 4795 && sizeScreen === 'Small' ||
+            scrollPosition > 4304 && scrollPosition < 4951 && sizeScreen === 'Medium' ||
+            scrollPosition > 2395 && scrollPosition < 2670 && sizeScreen === 'Large'
         ) {
             setActiveNav('#skills')
         } else if (
-            scrollPosition > 2353 && scrollPosition < 3219 && sizeScreen === 'Small' ||
-            scrollPosition > 2187 && scrollPosition < 3051 && sizeScreen === 'Medium' ||
-            scrollPosition > 2002 && scrollPosition < 2670 && sizeScreen === 'Large'
-        ) {
-            setActiveNav('#service')
-        } else if (
             scrollPosition > 3219 && scrollPosition < 5674 && sizeScreen === 'Small' ||
-            scrollPosition > 3051 && scrollPosition < 5815 && sizeScreen === 'Medium' ||
+            scrollPosition > 4951 && scrollPosition < 5815 && sizeScreen === 'Medium' ||
             scrollPosition > 2670 && scrollPosition < 3731 && sizeScreen === 'Large'
         ) {
-            setActiveNav('#portfolio')
+            setActiveNav('#service')
         } else if (
             scrollPosition > 3731
         ) {
             setActiveNav('#contact')
-        } else if( scrollPosition < 521){
+        } else if (scrollPosition < 521) {
             setActiveNav('#')
         }
 
@@ -97,14 +97,14 @@ const Navbar = () => {
     return (
         <div className={styles.container}>
             {NAV_ITEMS.map(({ id, icon: Icon }) => (
-        <a
-          href={`#${id}`}
-          className={activiteNav === `#${id}` ? styles.active : ''}
-          key={id}
-        >
-          <Icon className={styles.icon} />
-        </a>
-      ))}
+                <a
+                    href={`#${id}`}
+                    className={activiteNav === `#${id}` ? styles.active : ''}
+                    key={id}
+                >
+                    <Icon className={styles.icon} />
+                </a>
+            ))}
         </div>
     )
 }
