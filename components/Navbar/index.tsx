@@ -71,23 +71,23 @@ const Navbar = () => {
         } else if (
             scrollPosition > 1839 && scrollPosition < 4293 && sizeScreen === 'Small' ||
             scrollPosition > 1539 && scrollPosition < 4304 && sizeScreen === 'Medium' ||
-            scrollPosition > 1297 && scrollPosition < 2337 && sizeScreen === 'Large'
+            scrollPosition > 1297 && scrollPosition < 2336 && sizeScreen === 'Large'
         ) {
             setActiveNav('#portfolio')
         } else if (
             scrollPosition > 4293 && scrollPosition < 4795 && sizeScreen === 'Small' ||
             scrollPosition > 4304 && scrollPosition < 4951 && sizeScreen === 'Medium' ||
-            scrollPosition > 2337 && scrollPosition < 2985 && sizeScreen === 'Large'
+            scrollPosition > 2336 && scrollPosition < 2985 && sizeScreen === 'Large'
         ) {
             setActiveNav('#skills')
         } else if (
             scrollPosition > 4795 && scrollPosition < 5674 && sizeScreen === 'Small' ||
             scrollPosition > 4951 && scrollPosition < 5815 && sizeScreen === 'Medium' ||
-            scrollPosition > 2985 && scrollPosition < 3635 && sizeScreen === 'Large'
+            scrollPosition > 2985 && scrollPosition < 3634 && sizeScreen === 'Large'
         ) {
             setActiveNav('#service')
         } else if (
-            scrollPosition > 3635
+            scrollPosition > 3634
         ) {
             setActiveNav('#contact')
         } else if (scrollPosition < 521) {
@@ -98,7 +98,7 @@ const Navbar = () => {
 
     return (
         <div className={styles.container}>
-            <p style={{ color: 'white'}}>{sizeScreen} & {screenLarge} & {scrollPosition}</p>
+            {/* <p style={{ color: 'white'}}>{sizeScreen} & {screenLarge} & {scrollPosition}</p> */}
             {NAV_ITEMS.map(({ id, icon: Icon }) => (
                 <a
                     href={`#${id}`}
